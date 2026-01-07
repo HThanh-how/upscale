@@ -6,7 +6,7 @@ This project provides a ready-to-use Google Colab workflow for upscaling videos 
 
 1. **Upload Notebook**: Upload `Upscale_Workflow.ipynb` to [Google Colab](https://colab.research.google.com/).
 2. **Setup GPU**: In Colab, go to `Edit` -> `Notebook settings` -> `Hardware accelerator` -> `T4 GPU`.
-3. **Connect Drive**: Prepare your input video in a folder on Google Drive (e.g., `Movies/Input`).
+3. **Connect Drive**: Prepare your input video in a folder on Google Drive (e.g., `Movie/Input`).
 4. **Run Cells**: Follow the instructions in the notebook to:
    - Mount Google Drive.
    - Install Real-ESRGAN and RIFE.
@@ -30,7 +30,7 @@ This project provides a ready-to-use Google Colab workflow for upscaling videos 
 
 ```text
 /drive/MyDrive/
-└── Movies/
+└── Movie/
     ├── Input/   <-- Original 1080p files
     └── Output/  <-- Upscaled 4K files
 ```
